@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/starbackground" >
+
+    <TextView
+        android:id="@+id/whichSeason"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="33dp"
+        android:text="@string/whichSeason"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/whichSeason"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" >
+
+        <RadioButton
+            android:id="@+id/springRad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/springRadio" />
+
+        <RadioButton
+            android:id="@+id/summerRad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/summerRadio" />
+
+        <RadioButton
+            android:id="@+id/autumnRad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/autumnRadio" />
+
+        <RadioButton
+            android:id="@+id/winterRad"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/winterRadio" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/seasonGoBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/findConstellations" />
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Constellations</string>
+    <string name="action_settings">Settings</string>
+    <string name="theConstellations">The Constellations</string>
+    <string name="info">The International Astronomical Union recognizes 88 constellations covering the entire northern and southern sky. Here is a selection of the most familiar and easily seen constellations in the northern sky</string>
+    <string name="springRadio">Spring</string>
+    <string name="summerRadio">Summer</string>
+    <string name="autumnRadio">Autumn</string>
+    <string name="winterRadio">Winter</string>
+    <string name="whichSeason">Which Season are you stargazing?</string>
+    <string name="findConstellations">Find Constellations</string>
+
+</resources>
